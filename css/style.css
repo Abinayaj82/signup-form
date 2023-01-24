@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   /* background-image:url(images/bg-intro-desktop.png);*/
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:  hsl(0, 100%, 74%) ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:"poppins",sans-serif
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.main{
+    width:350px;
+    height:300px;
+    padding:50px;
+   text-align:justify;
+   color:white;
+   margin-left:-60px;
+}
+h2{
+    font-size:25px;
+}
+.main p{
+    margin-top:20px;
+    line-height: 17px;
+    font-size:13px;
+}
+.form-button{
+    background-color: hsl(248, 32%, 49%);
+    padding:10px;
+    border-radius:7px;
+    font-size:12px;
+    text-align:center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+  
+.text{
+    color:white;
+    text-decoration:none;
+
+}
+
+.forms{
+    background-color:white;
+    margin-top:20px;
+    padding:30px;
+    border-radius:7px;
+    width:350px;
+    height:370px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.firstname,
+.lastname,
+.email,
+.password{
+    width:100%;
+    padding:8px;
+    border-radius:4px;
+    border:1px solid hsl(0, 100%, 74%);
+}
+
+.formcontrol{
+    position:relative;
+}
+.erroricon{
+    position:absolute;
+    right:0;
+    margin-top:-20px;
+    margin-right:20px;
+    width:14px;
+    visibility:hidden;
+     
+}
+.active{
+    visibility:visible;
+}
+.success {
+    border-color: hsl(154deg, 59%, 51%);
+  }
+
+.errormessage{
+    font-size:10px;
+    color:hsl(0, 100%, 74%);
+    margin-left:140px;
+    visibility:hidden;
+}
+.activeError{
+    visibility:visible;
+}
+.button{
+    width:100%;
+    margin-top:20px;
+    background-color:hsl(154, 59%, 51%);
+    padding:9px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    color:white;
+}
+small{
+    font-size:7px;
+    margin-left:25px;
+}
+.terms-services{
+     text-decoration:none;
+    color:hsl(0, 100%, 74%);
+}
